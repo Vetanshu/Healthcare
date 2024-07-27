@@ -25,19 +25,19 @@ const Home = () => {
     <>
     <div className="absolute top-0 w-full h-screen bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-slate-950 via-indigo-950 to-blue-950 overflow-hidden">
       <div className="flex flex-col md:flex-row h-full justify-center items-center">
-        <div className="w-full md:w-1/2 flex flex-col justify-center items-center text-center font-play text-white px-4 md:px-8 overflow-hidden z-10">
+        <div className="w-full md:w-1/2 flex flex-col justify-center items-center text-center font-play text-white px-4 md:px-8 overflow-hidden z-10 top-96 mt-8 lg:mt-32">
           <div className="overflow-hidden">
             <motion.div variants={variants} initial="hidden" animate="show">
-              <h1 className="text-5xl md:text-4xl lg:text-6xl font-medium mb-4">
+              <h1 className="text-4xl md:text-4xl lg:text-7xl font-medium mb-4">
                 Your Mental
               </h1>
-              <h1 className="text-5xl md:text-4xl lg:text-6xl font-medium mb-4">
+              <h1 className="text-4xl md:text-4xl lg:text-7xl font-medium mb-2">
                 Health Matters
               </h1>
             </motion.div>
           </div>
           {/* Move image here on small screens */}
-          <div className="md:hidden w-full flex justify-center mt-4 overflow-hidden">
+          <div className="md:hidden w-[200px] flex justify-center mt-5 overflow-hidden">
             <motion.img
               src={Image1}
               alt="Mental Health"
@@ -47,7 +47,7 @@ const Home = () => {
               animate="show"
             />
           </div>
-          <div className="mt-10 md:text-lg lg:text-xl font-light overflow-hidden">
+          <div className="mt-7 md:text-lg lg:text-xl lg:mt-24 font-light overflow-hidden text-sm">
             <motion.p
               className="px-12"
               variants={variants}

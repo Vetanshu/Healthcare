@@ -12,7 +12,7 @@ export default {
       },
 
       screens:{
-        phone:"300px"
+        "phone":"200px"
       },
 
       lineHeight:{
