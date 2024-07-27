@@ -7,7 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        play:["Playwrite NZ", "cursive"]
+        play:["Playwrite NZ", "cursive"],
+        kalam:["Kalam", "cursive"]
+      },
+
+      screens:{
+        phone:"300px"
       }
     },
   },
