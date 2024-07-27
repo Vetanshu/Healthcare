@@ -13,6 +13,10 @@ export default {
 
       screens:{
         phone:"300px"
+      },
+
+      lineHeight:{
+        mid:"60px"
       }
     },
   },
