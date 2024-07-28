@@ -11,9 +11,9 @@ export default {
         kalam:["Kalam", "cursive"]
       },
 
-      screens:{
-        "sm":"320px"
-      },
+      // screens:{
+      //   "sm":"320px"
+      // },
 
       lineHeight:{
         mid:"60px"
