@@ -25,7 +25,7 @@ const Header = () => {
         duration: 0.8,
       }}
     >
-      <nav className="bg-slate-950 px-4 sm:px-6 py-2.5">
+      <nav className="bg-slate-950 px-4 sm:px-6 py-2.5 md:py-4">
         <div className="flex  justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
